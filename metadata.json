@@ -1,0 +1,6 @@
+{
+  "name": "Furqona Karpet",
+  "description": "Spesialis Karpet Masjid & Karpet Kantor Berkualitas Premium. Melayani Survey, Pengukuran, Pengiriman, dan Pemasangan Karpet Profesional seluruh Indonesia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

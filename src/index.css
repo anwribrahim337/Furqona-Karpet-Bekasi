@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Poppins", sans-serif;
+  
+  --color-brand-emerald: #0b4534;
+  --color-brand-green-light: #166e53;
+  --color-brand-green-dark: #072a20;
+  --color-brand-gold: #cca43b;
+  --color-brand-gold-dark: #a17f27;
+  --color-brand-gold-light: #f4dfa2;
+  --color-brand-charcoal: #181d19;
+  --color-brand-slate: #5a655c;
+  --color-brand-cream: #faf5e6;
+}
+
+/* Custom global styling for high luxury feeling */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Elegant custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f3f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0b4534;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #166e53;
+}
+
+/* Glassmorphism utility */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-dark-effect {
+  background: rgba(11, 69, 52, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Smooth motion card animations */
+.glow-on-hover:hover {
+  box-shadow: 0 10px 30px -10px rgba(11, 69, 52, 0.15), 0 1px 3px rgba(212, 175, 55, 0.1);
+}
